@@ -45,4 +45,4 @@ jobs:
       - name: Test R2
         run: |
           source venv/bin/activate
-          PYTHONPATH=. python3 ./test/model_testing.py
+          PYTHONPATH="." python3 ./test/model_testing.py
