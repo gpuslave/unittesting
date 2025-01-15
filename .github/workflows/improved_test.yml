@@ -30,7 +30,7 @@ jobs:
         with:
           python-version: '3.12'
           cache: 'pip'
-          cache-dependency-path: '$GITHUB_WORKSPACE/requirements.txt'
+          cache-dependency-path: 'requirements.txt'
 
       - name: Echo Caching Results
         run: |
