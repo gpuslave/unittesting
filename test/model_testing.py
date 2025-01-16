@@ -11,14 +11,11 @@ from sklearn.svm import LinearSVR
 
 from unittesting.master import ModelTraining
 
-# models = [
-#     (LinearRegression(), "LinearReg"),
-#     (LinearSVR(max_iter=2300), "SVR"),
-# ]
-
 models = [
     (LinearRegression(), "LinearReg"),
+    (LinearSVR(max_iter=2300), "SVR"),
 ]
+
 
 ref_float = np.array([np.float64(0.30)], dtype=np.float64)
 
